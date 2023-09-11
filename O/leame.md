@@ -1,0 +1,2 @@
+Princípio do Aberto/Fechado (OCP - Open/Closed Principle): 
+O OCP estabelece que uma classe deve ser aberta para extensão, mas fechada para modificação. Isso significa que você pode estender o comportamento de uma classe sem alterar seu código-fonte. Isso é alcançado por meio de herança, interfaces, polimorfismo e composição.

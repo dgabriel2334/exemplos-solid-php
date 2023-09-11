@@ -1,0 +1,1 @@
+Neste exemplo "bom", usamos injeção de dependência para evitar o acoplamento forte entre Comanda e ImprimirComanda. Agora, a classe de alto nível (Comanda) depende de uma abstração (ImprimivelInterface) em vez de uma classe de baixo nível.

@@ -1,0 +1,2 @@
+Princípio da Inversão de Dependência (DIP - Dependency Inversion Principle): 
+O DIP estabelece que módulos de alto nível não devem depender de módulos de baixo nível; ambos devem depender de abstrações. Além disso, abstrações não devem depender de detalhes, detalhes devem depender de abstrações. Isso promove o uso de interfaces e injeção de dependência para criar um código flexível e menos acoplado.

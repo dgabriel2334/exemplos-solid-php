@@ -1,0 +1,1 @@
+Neste exemplo "bom", todas as classes derivadas (MesaComanda, BalcaoComanda e DeliveryComanda) seguem o princípio LSP, pois elas podem ser substituídas corretamente pela classe base Comanda sem afetar a corretude do programa.

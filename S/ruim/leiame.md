@@ -1,0 +1,1 @@
+Neste exemplo não está errado, porém não segue os principios do solid, uma classe faz tanto a criacao do usuário quanto o envio do email, isso pode ser um pouco complicado se um dia vc precisar usar outro servidor de email, pois o mesmo não tem uma implementação única

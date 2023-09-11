@@ -1,0 +1,2 @@
+Princípio da Responsabilidade Única (SRP - Single Responsibility Principle): 
+Este princípio afirma que uma classe deve ter apenas um motivo para mudar. Em outras palavras, uma classe deve ter uma única responsabilidade. Isso promove a coesão e a organização do código. Se uma classe tiver várias responsabilidades, ela se torna mais difícil de entender e manter.

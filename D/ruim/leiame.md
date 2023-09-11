@@ -1,0 +1,1 @@
+No exemplo "bom", Comanda depende da abstração ImprimivelInterface, tornando o código mais flexível e seguindo o princípio DIP. Agora você pode facilmente substituir ImprimirComanda por outra classe que implemente ImprimivelInterface sem modificar Comanda.

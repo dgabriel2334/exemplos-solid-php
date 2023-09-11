@@ -1,0 +1,1 @@
+Neste exemplo bom, seguimos o princípio ISP criando interfaces separadas para cada tipo de ação que uma comanda pode realizar: Calculavel, Imprimivel e Fechavel. Cada classe de comanda implementa apenas as interfaces que são relevantes para ela.

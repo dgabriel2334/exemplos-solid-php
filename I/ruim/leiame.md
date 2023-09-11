@@ -1,0 +1,1 @@
+Neste exemplo ruim, temos uma única interface chamada ComandaInterface que contém métodos para calcular o total, imprimir a comanda e fechar a comanda. No entanto, isso força todas as classes de comanda a implementarem todos esses métodos, mesmo que alguns deles não sejam necessários para todos os tipos de comanda.
