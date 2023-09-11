@@ -1,4 +1,4 @@
-# Projeto Exemplo - Princípios SOLID
+# Exemplos - Princípios SOLID
 
 [![GitHub stars](https://img.shields.io/github/stars/dgabriel2334/exemplos-solid-php)](https://github.com/dgabriel2334/exemplos-solid-php/stargazers)
 [![GitHub license](https://img.shields.io/github/license/dgabriel2334/exemplos-solid-php)](https://github.com/dgabriel2334/exemplos-solid-php/blob/master/LICENSE)
