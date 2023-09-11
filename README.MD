@@ -35,10 +35,6 @@ Você é bem-vindo para contribuir com este projeto! Você pode ajudar de vária
 
 Sinta-se à vontade para abrir um [issue](https://github.com/dgabriel2334/exemplos-solid-php/issues) ou enviar um [pull request](https://github.com/dgabriel2334/exemplos-solid-php/pulls). Estamos ansiosos para receber sua contribuição!
 
-## Licença
-
-Este projeto é licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para obter mais detalhes.
-
 ---
 
 **Observação:** Este projeto é uma demonstração e não representa um projeto real. O objetivo é fornecer um exemplo de como criar um README.md informativo e atrativo para seu próprio projeto no GitHub.
