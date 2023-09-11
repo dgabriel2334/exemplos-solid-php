@@ -1,8 +1,8 @@
 # Projeto Exemplo - Princípios SOLID
 
-[![GitHub stars](https://img.shields.io/github/stars/dgabriel2334/seu-repositorio)](https://github.com/dgabriel2334/exemplos-solid-php/stargazers)
-[![GitHub license](https://img.shields.io/github/license/dgabriel2334/exemplos-solid-php)](https://github.com/seuprojeto/exemplos-solid-php/blob/master/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/dgabriel2334/seu-repositorio)](https://github.com/seuprojeto/exemplos-solid-php/issues)
+[![GitHub stars](https://img.shields.io/github/stars/dgabriel2334/exemplos-solid-php)](https://github.com/dgabriel2334/exemplos-solid-php/stargazers)
+[![GitHub license](https://img.shields.io/github/license/dgabriel2334/exemplos-solid-php)](https://github.com/dgabriel2334/exemplos-solid-php/blob/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/dgabriel2334/seu-repositorio)](https://github.com/dgabriel2334/exemplos-solid-php/issues)
 
 Bem-vindo ao Projeto Exemplo! Este projeto foi desenvolvido com base nos princípios SOLID da programação orientada a objetos. Abaixo, explicamos o que é o SOLID, por que é importante e como você pode contribuir.
 
