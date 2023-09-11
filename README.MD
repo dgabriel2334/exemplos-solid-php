@@ -2,7 +2,7 @@
 
 [![GitHub stars](https://img.shields.io/github/stars/dgabriel2334/exemplos-solid-php)](https://github.com/dgabriel2334/exemplos-solid-php/stargazers)
 [![GitHub license](https://img.shields.io/github/license/dgabriel2334/exemplos-solid-php)](https://github.com/dgabriel2334/exemplos-solid-php/blob/master/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/dgabriel2334/exemplos-solid-php/)](https://github.com/dgabriel2334/exemplos-solid-php/issues)
+[![GitHub issues](https://img.shields.io/github/issues/dgabriel2334/exemplos-solid-php)](https://github.com/dgabriel2334/exemplos-solid-php/issues)
 
 Bem-vindo ao Projeto Exemplo! Este projeto foi desenvolvido com base nos princípios SOLID da programação orientada a objetos. Abaixo, explicamos o que é o SOLID, por que é importante e como você pode contribuir.
 
@@ -33,7 +33,7 @@ Você é bem-vindo para contribuir com este projeto! Você pode ajudar de vária
 - Melhorando a documentação.
 - Compartilhando suas ideias e sugestões.
 
-Sinta-se à vontade para abrir um [issue](https://github.com/dgabriel2334/seu-repositorio/issues) ou enviar um [pull request](https://github.com/dgabriel2334/exemplos-solid-php/pulls). Estamos ansiosos para receber sua contribuição!
+Sinta-se à vontade para abrir um [issue](https://github.com/dgabriel2334/exemplos-solid-php/issues) ou enviar um [pull request](https://github.com/dgabriel2334/exemplos-solid-php/pulls). Estamos ansiosos para receber sua contribuição!
 
 ## Licença
 
