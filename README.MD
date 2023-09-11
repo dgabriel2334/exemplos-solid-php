@@ -37,5 +37,5 @@ Sinta-se à vontade para abrir um [issue](https://github.com/dgabriel2334/exempl
 
 ---
 
-**Observação:** Este projeto é uma demonstração e não representa um projeto real. O objetivo é fornecer um exemplo de como criar um README.md informativo e atrativo para seu próprio projeto no GitHub.
+**Observação:** Este projeto é uma demonstração e não representa um projeto real.
 
