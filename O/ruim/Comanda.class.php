@@ -1,7 +1,9 @@
 <?php
 
-class Comanda {
-    public function processOrder($order, $comandaType) {
+class Comanda
+{
+    public function processOrder($order, $comandaType)
+    {
         if ($comandaType == 'mesa') {
             echo "Pedido para comanda de mesa processado: ";
             print_r($order);

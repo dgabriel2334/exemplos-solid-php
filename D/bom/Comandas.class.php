@@ -1,28 +1,35 @@
 <?php
-interface ImprimivelInterface {
+interface ImprimivelInterface
+{
     public function imprimir($comanda);
 }
 
-class ImprimirComanda implements ImprimivelInterface {
-    public function imprimir($comanda) {
+class ImprimirComanda implements ImprimivelInterface
+{
+    public function imprimir($comanda)
+    {
         echo "Comanda impressa: ";
         print_r($comanda);
     }
 }
 
-class Comanda {
+class Comanda
+{
     private $itens = [];
     private $impressora;
 
-    public function __construct(ImprimivelInterface $impressora) {
+    public function __construct(ImprimivelInterface $impressora)
+    {
         $this->impressora = $impressora;
     }
 
-    public function adicionarItem($item) {
+    public function adicionarItem($item)
+    {
         $this->itens[] = $item;
     }
 
-    public function fecharComanda() {
+    public function fecharComanda()
+    {
         // fechar a comanda
 
         $this->impressora->imprimir($this->itens);

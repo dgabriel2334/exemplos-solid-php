@@ -1,27 +1,33 @@
 <?php
 
-class Comanda {
-    public function calcularTotal($itens) {
+class Comanda
+{
+    public function calcularTotal($itens)
+    {
         return 0;
     }
 }
 
-class MesaComanda extends Comanda {
+class MesaComanda extends Comanda
+{
     public $total = 0;
 
-    public function calcularTotal($itens) {
+    public function calcularTotal($itens)
+    {
         foreach ($itens as $item) {
             $this->total += $item['price'];
         }
-        $this->total = $this->total + ($this->total/100 * 10);
+        $this->total = $this->total + ($this->total / 100 * 10);
         return $this;
     }
 }
 
-class BalcaoComanda extends Comanda {
+class BalcaoComanda extends Comanda
+{
     public $total = 0;
 
-    public function calcularTotal($itens) {
+    public function calcularTotal($itens)
+    {
         foreach ($itens as $item) {
             $this->total += $item['price'];
         }
@@ -30,8 +36,8 @@ class BalcaoComanda extends Comanda {
     }
 }
 
-class DeliveryComanda extends Comanda {
-    
+class DeliveryComanda extends Comanda
+{
 }
 
 $itens = [

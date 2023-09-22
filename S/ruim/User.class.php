@@ -1,19 +1,24 @@
 <?php
 
-class Database {
-    public function insert($table, $data) {
+class Database
+{
+    public function insert($table, $data)
+    {
         echo "Inserindo dados na tabela $table: ";
         print_r($data);
     }
 }
-class User {
+class User
+{
     private $db;
 
-    public function __construct(Database $db) {
+    public function __construct(Database $db)
+    {
         $this->db = $db;
     }
 
-    public function createUser($userData) {
+    public function createUser($userData)
+    {
         if (!isset($userData['username']) || !isset($userData['email'])) {
             echo "Erro: Informações de usuário incompletas\n";
             return;
@@ -24,10 +29,11 @@ class User {
         echo "Usuário criado com sucesso!\n";
     }
 
-    public function sendWelcomeEmail($userEmail) {
+    public function sendWelcomeEmail($userEmail)
+    {
         $subject = 'Bem-vindo ao nosso serviço';
         $message = 'Olá! Bem-vindo ao nosso serviço.';
-        
+
         echo "Enviando e-mail de boas-vindas para $userEmail:\n";
         echo "Assunto: $subject\n";
         echo "Mensagem: $message\n";

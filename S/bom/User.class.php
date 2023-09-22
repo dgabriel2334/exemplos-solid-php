@@ -1,21 +1,26 @@
 <?php
-class Database {
-    public function insert($table, $data) {
+class Database
+{
+    public function insert($table, $data)
+    {
         echo "Inserindo dados na tabela $table: ";
         print_r($data);
     }
 }
 
-class User {
+class User
+{
     private $db;
     private $emailSender;
 
-    public function __construct(Database $db, EmailSender $emailSender) {
+    public function __construct(Database $db, EmailSender $emailSender)
+    {
         $this->db = $db;
         $this->emailSender = $emailSender;
     }
 
-    public function createUser($userData) {
+    public function createUser($userData)
+    {
         if (!isset($userData['username']) || !isset($userData['email'])) {
             echo "Erro: Informações de usuário incompletas\n";
             return;
@@ -31,20 +36,23 @@ class User {
     }
 }
 
-class EmailSender {
+class EmailSender
+{
     private $smtpServer;
     private $smtpPort;
     private $smtpUsername;
     private $smtpPassword;
 
-    public function __construct($smtpServer, $smtpPort, $smtpUsername, $smtpPassword) {
+    public function __construct($smtpServer, $smtpPort, $smtpUsername, $smtpPassword)
+    {
         $this->smtpServer = $smtpServer;
         $this->smtpPort = $smtpPort;
         $this->smtpUsername = $smtpUsername;
         $this->smtpPassword = $smtpPassword;
     }
 
-    public function sendWelcomeEmail($userEmail) {
+    public function sendWelcomeEmail($userEmail)
+    {
         $subject = 'Bem-vindo ao nosso serviço';
         $message = 'Olá! Bem-vindo ao nosso serviço.';
 

@@ -1,19 +1,24 @@
 <?php
-class ImprimirComanda {
-    public function imprimir($comanda) {
+class ImprimirComanda
+{
+    public function imprimir($comanda)
+    {
         echo "Comanda impressa: ";
         print_r($comanda);
     }
 }
 
-class Comanda {
+class Comanda
+{
     private $itens = [];
 
-    public function adicionarItem($item) {
+    public function adicionarItem($item)
+    {
         $this->itens[] = $item;
     }
 
-    public function fecharComanda() {
+    public function fecharComanda()
+    {
         // Lógica para fechar a comanda
 
         $impressora = new ImprimirComanda(); // Acoplamento forte
